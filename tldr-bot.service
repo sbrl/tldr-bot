@@ -8,7 +8,7 @@ RuntimeDirectory=uwsgi
 Restart=always
 KillSignal=SIGQUIT
 Type=notify
-StandardError=syslog
+#StandardError=syslog
 NotifyAccess=all
 
 [Install]
